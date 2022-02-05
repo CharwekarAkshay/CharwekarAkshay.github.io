@@ -22379,8 +22379,8 @@ ayz:function ayz(){},
 KQ:function KQ(a){this.a=a},
 a4m:function a4m(){},
 a4n:function a4n(){},
-a8n(a,b,c,d,e,f,g,h,i){return new A.nS(d,h,e,c,b,i,a,f,g)},
-nS:function nS(a,b,c,d,e,f,g,h,i){var _=this
+a8n(a,b,c,d,e,f,g,h,i,j){return new A.nS(d,i,e,c,b,j,a,f,g,h)},
+nS:function nS(a,b,c,d,e,f,g,h,i,j){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -22389,7 +22389,8 @@ _.e=e
 _.f=f
 _.r=g
 _.x=h
-_.y=i},
+_.y=i
+_.z=j},
 jx(a,b,c,d){return new A.Oo(c,a,d)},
 Oo:function Oo(a,b,c){this.a=a
 this.b=b
@@ -79033,20 +79034,22 @@ return A.a_(A.tF(p,!1,!0,A.a5(["my_header_key","my_header_value"],o,o)),$async$C
 case 2:if(!b)throw A.c("Could not launch "+p)
 return A.P(null,r)}})
 return A.Q($async$CH,r)},
-O(a,b){var s,r=this,q=null,p=b.a8(t.w).f.a,o=p.a>769,n=o?B.ag:B.O,m=o?B.w:B.bg,l=r.c,k=A.er(l.a,q,q,q)
-o=o?B.eY:B.hH
-s=t.p
-n=A.b([A.NZ(A.b([k,o,new A.nx("@"+l.d,r.gazS(),A.ac(b).R.y.jr(20),!0,q)],s),m,n,q,B.D,B.p,q,q,B.bc)],s)
-o=l.r
-if(o!=="")B.c.K(n,A.b([B.kt,A.er(o,q,A.ac(b).R.y.jr(14),q)],s))
-n.push(B.kt)
-n.push(A.er(l.b+" - "+l.c,q,A.ac(b).R.y.Bh(B.iC,13),q))
-n.push(B.at)
-o=l.f.length
-if(l.x)o=A.aB8(new A.a8l(r),o,!0)
-else{m=p.b*0.5
-o=new A.f3(new A.aK(0,1/0,m,m),A.aB8(new A.a8m(r),o,!0),q)}n.push(o)
-return A.bP(q,A.cT(n,B.bg,q,B.D,B.p),B.l,q,q,q,q,q,q,B.Ii,q,q,q)}}
+O(a,b){var s,r,q,p,o=this,n=null,m=b.a8(t.w).f.a,l=t.p,k=A.b([],l),j=o.c
+if(j.z){s=m.a>769
+r=s?B.ag:B.O
+q=s?B.w:B.bg
+p=A.er(j.a,n,n,n)
+s=s?B.eY:B.hH
+B.c.K(k,A.b([A.NZ(A.b([p,s,new A.nx("@"+j.d,o.gazS(),A.ac(b).R.y.jr(20),!0,n)],l),q,r,n,B.D,B.p,n,n,B.bc)],l))}s=j.r
+if(s!=="")B.c.K(k,A.b([B.kt,A.er(s,n,A.ac(b).R.y.jr(14),n)],l))
+k.push(B.kt)
+k.push(A.er(j.b+" - "+j.c,n,A.ac(b).R.y.Bh(B.iC,13),n))
+k.push(B.at)
+l=j.f.length
+if(j.x)l=A.aB8(new A.a8l(o),l,!0)
+else{j=m.b*0.5
+l=new A.f3(new A.aK(0,1/0,j,j),A.aB8(new A.a8m(o),l,!0),n)}k.push(l)
+return A.bP(n,A.cT(k,B.bg,n,B.D,B.p),B.l,n,n,n,n,n,n,B.Ii,n,n,n)}}
 A.a8l.prototype={
 $2(a,b){return new A.cr(B.mC,new A.AU(this.a.c.f[b],null),null)},
 $S:163}
@@ -117329,8 +117332,8 @@ s($,"b60","aOe",()=>A.dr(A.bw(A.aHm(A.Kg("^",null),t.N),$.aOj()),new A.axg(),!1,
 r($,"b6W","zm",()=>A.b([A.ac5(new A.ayq(),"About","01."),A.ac5(new A.ayr(),"Experience","02."),A.ac5(new A.ays(),"Work","03."),A.ac5(new A.ayt(),"Contact","04.")],A.a7("p<o6>")))
 r($,"b76","aE8",()=>A.b([A.am7("https://github.com/CharwekarAkshay","assets/svg/github.svg"),A.am7("https://www.instagram.com/akshaycharwekar/","assets/svg/instagram.svg"),A.am7("https://leetcode.com/AkshayCharwekar/","assets/svg/leetcode.svg"),A.am7("https://www.linkedin.com/in/akshay-charwekar-67b698183/","assets/svg/linkedin.svg")],A.a7("p<p0>")))
 r($,"b74","aOS",()=>A.b([A.TS("Angular",90),A.TS("Flutter",80),A.TS("Javascript",80),A.TS("Spring (Java)",60),A.TS("CSS",75)],A.a7("p<x8>")))
-r($,"b7e","azs",()=>{var q="Feb 2021",p="Working on so and so thing",o="Software Engineer",n="Persistent Systems",m="https://www.persistent.com/",l="June 2019",k=t.s,j=A.a8n("","https://www.finastra.com/","Finastra","Associate Software Engineer","Present",!1,B.jn,q,A.b([p,p],k)),i=A.b(["Intent is to provide client robust application through which client can add and invest money to achive their goals. Design architecture to integrate  trading platform which will increase clients revenue. Also creating fresh  platform for expreience user to directly invest in stocks.","Worked as backend developer.","Closely worked with architects and designed distributed system.","Created robust and secure API for providing security to financial transactions","Handled asyncronus flow of application and managing multiple transactions."],k),h=t.nV
-return A.b([j,A.a8n("Robo Advisory Firm",m,n,o,q,!0,A.b([A.a8n("Insurance Company",m,n,o,"Sept 2020",!0,B.jn,l,A.b(["The solution intends to provide the client with application which will provide end user a reliable solution for purchasing bonds. The bond products are a key revenue driver for Company. A primary objective is to significantly improve the mobile experience. Helps gain attention drasticaly incresing mobile user to purchase bonds on their finger tip.Worked as UI developer.","Worked on under multiple teams.","Handled stage server deployment and other devops work.","Customer communication and team support."],k)),A.a8n("",m,n,"Intern",l,!0,B.jn,"Jan 2019",A.b(["Got training on Angular and Node.js.","Learned build robust and reusable component.","Learned basic skills how industry works.","Hands on experience on banking application."],k))],h),"October 2020",i)],h)})
+r($,"b7e","azs",()=>{var q="Feb 2021",p="Software Engineer",o="Persistent Systems",n="https://www.persistent.com/",m="June 2019",l=t.s,k=A.a8n("","https://www.finastra.com/","Finastra","Associate Software Engineer","Present",!1,B.jn,!0,q,A.b(["Developed next gen UX portal for handling and managing corporate banking loans. Providing solution to multiple banks.","Worked as full stack developer in project. Created API's  using Spring boot and frontend completly built on Angular. Following angular's standard practice created generic application which can be molded according to needs.","Created different types of dasborad like silver, gold & plattinum for providing user enhanced experience and providing useful information at fingertip. Further used can customize each dashboards accoarding to there needs."],l)),j=A.b(["Intent is to provide client robust application through which client can add and invest money to achive their goals. Design architecture to integrate  trading platform which will increase clients revenue. Also creating fresh  platform for expreience user to directly invest in stocks.","Worked as backend developer.","Closely worked with architects and designed distributed system.","Created robust and secure API for providing security to financial transactions","Handled asyncronus flow of application and managing multiple transactions."],l),i=t.nV
+return A.b([k,A.a8n("Robo Advisory Firm",n,o,p,q,!0,A.b([A.a8n("Insurance Company",n,o,p,"Sept 2020",!0,B.jn,!1,m,A.b(["The solution intends to provide the client with application which will provide end user a reliable solution for purchasing bonds. The bond products are a key revenue driver for Company. A primary objective is to significantly improve the mobile experience. Helps gain attention drasticaly incresing mobile user to purchase bonds on their finger tip.Worked as UI developer.","Worked on under multiple teams.","Handled stage server deployment and other devops work.","Customer communication and team support."],l)),A.a8n("",n,o,"Intern",m,!0,B.jn,!0,"Jan 2019",A.b(["Got training on Angular and Node.js.","Learned build robust and reusable component.","Learned basic skills how industry works.","Hands on experience on banking application."],l))],i),!0,"October 2020",j)],i)})
 r($,"b6T","aE5",()=>{var q="Time Machine",p="This is time machine project. Used to go back in time. And never comeback beacause this world is not good.",o="https://github.com/CharwekarAkshay",n="Time Machine - 1",m="Time Machine - 2",l="Time Machine - 3",k=t.s
 return A.b([A.jx(p,o,q,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,n,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,m,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,l,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,q,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,n,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,m,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,l,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,q,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,n,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,m,A.b(["Dart","Angular","Flutter","React"],k)),A.jx(p,o,l,A.b(["Dart","Angular","Flutter","React"],k))],A.a7("p<Oo>"))})
 s($,"b5E","aNY",()=>!t.O.b(A.b([],t.Y)))
